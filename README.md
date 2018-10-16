@@ -1,30 +1,37 @@
 # urls
 ## homepage
-[https://code.insistime.com/qiao.plugin.coder](https://code.insistime.com/qiao.plugin.coder)
+[https://code.insistime.com/qiao.util.file](https://code.insistime.com/qiao.util.file)
 
 ## github
-[https://github.com/insistime/qiao.plugin.coder](https://github.com/insistime/qiao.plugin.coder)
+[https://github.com/insistime/qiao.util.file](https://github.com/insistime/qiao.util.file)
 
 ## npm
-[https://www.npmjs.com/package/qiao.plugin.coder](https://www.npmjs.com/package/qiao.plugin.coder)
+[https://www.npmjs.com/package/qiao.util.file](https://www.npmjs.com/package/qiao.util.file)
 
 # started
 ## install
-npm install qiao.plugin.coder
+npm install qiao.util.file
 
 ## dependencies
-1. art-template
-2. qiao.plugin.mysql
+
+## documentation
+
+# api
+## is exists
+```javascript
+'use strict';
+
+var qiaoUtilFile = require('qiao.util.file');
+
+var test = function(){
+	var path = 'z:/workspaces/qiao.plugin.coder/lib/qiao.plugin.coder.js';
+	var s = qiaoUtilFile.isExists(path);
+	console.log(s);
+};
+
+test();
+```
 
 # version
-## 0.0.2.20181015
-1. add art-template
-2. gen file by data
-3. gen file by file
-4. qiao.util.string.js
-5. add template
-6. controller model service template ok
-7. del bin
-
-## 0.0.1.20181012
+## 0.0.1.20181016
 1. init
