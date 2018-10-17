@@ -68,11 +68,27 @@ var test = function(){
 test();
 ```
 
+## get all files
+'use strict';
+
+var qiaoUtilFile = require('qiao.util.file');
+
+var test = function(){
+	var folder 	= 'z:/workspaces/qiao.plugin.coder/';
+	var files	= qiaoUtilFile.getAllFiles(folder);
+	
+	console.log(files);
+};
+
+test();
+```
+
 # version
 ## 0.0.2.20181017
 1. isExists
 2. extname
 3. mkdir
+4. getAllFiles
 
 ## 0.0.1.20181016
 1. init
