@@ -33,5 +33,9 @@ test();
 ```
 
 # version
+## 0.0.2.20181017
+1. isExists
+2. extname
+
 ## 0.0.1.20181016
 1. init
