@@ -69,6 +69,7 @@ test();
 ```
 
 ## get all files
+```javascript
 'use strict';
 
 var qiaoUtilFile = require('qiao.util.file');
