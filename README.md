@@ -85,6 +85,9 @@ test();
 ```
 
 # version
+## 0.0.3.20181122
+1. npm audit
+
 ## 0.0.2.20181017
 1. isExists
 2. extname
