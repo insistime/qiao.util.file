@@ -37,7 +37,7 @@ var test = function(){
 test();
 ```
 
-## is exists
+## isExists
 ```javascript
 'use strict';
 
@@ -68,7 +68,7 @@ var test = function(){
 test();
 ```
 
-## get all files
+## getAllFiles
 ```javascript
 'use strict';
 
