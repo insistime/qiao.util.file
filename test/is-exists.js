@@ -1,6 +1,6 @@
 'use strict';
 
-var qiaoUtilFile = require('../lib/qiao.util.file');
+var qiaoUtilFile = require('../lib/qiao.util.file.js');
 
 var test = function(){
 	var fpath 	= 'z:/workspaces/qiao.plugin.coder/lib/qiao.plugin.coder.js';
