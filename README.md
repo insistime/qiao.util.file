@@ -87,6 +87,7 @@ test();
 # version
 ## 0.0.4.20181127
 1. modify method name
+2. add .js
 
 ## 0.0.3.20181122
 1. npm audit
