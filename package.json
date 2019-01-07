@@ -2,7 +2,7 @@
   "name": "qiao.util.file",
   "version": "0.0.6",
   "license": "MIT",
-  "description": "qiao.util.file",
+  "description": "nodejs file tool",
   "keywords": [],
   "main": "index.js",
   "scripts": {},
