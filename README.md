@@ -85,6 +85,9 @@ test();
 ```
 
 # version
+## 0.0.5.20190107
+1. nodejs file tool
+
 ## 0.0.4.20181127
 1. modify method name
 2. add .js
