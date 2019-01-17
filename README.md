@@ -53,6 +53,20 @@ var test = function(){
 test();
 ```
 
+## lsdir
+```javascript
+'use strict';
+
+var qiaoUtilFile = require('qiao.util.file');
+
+var test = function(){
+	var foldersAndFiles = qiaoUtilFile.lsdir('z:/workspaces/qiao.plugin.coder/');
+	console.log(foldersAndFiles);
+};
+
+test();
+```
+
 ## mkdir
 ```javascript
 'use strict';
@@ -63,20 +77,6 @@ var test = function(){
 	var folder = 'd:/test1/test2/test3/test.js';
 	
 	qiaoUtilFile.mkdir(folder);
-};
-
-test();
-```
-
-## lsdir
-```javascript
-'use strict';
-
-var qiaoUtilFile = require('qiao.util.file');
-
-var test = function(){
-	var foldersAndFiles = qiaoUtilFile.lsdir('z:/workspaces/qiao.plugin.coder/');
-	console.log(foldersAndFiles);
 };
 
 test();
@@ -105,6 +105,8 @@ test();
 # version
 ## 0.0.6.20190117
 1. extname to lower case
+2. add lsdir
+3. add rm
 
 ## 0.0.5.20190107
 1. nodejs file tool
