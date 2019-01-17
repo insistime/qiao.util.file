@@ -53,20 +53,6 @@ var test = function(){
 test();
 ```
 
-## lsdir
-```javascript
-'use strict';
-
-var qiaoUtilFile = require('qiao.util.file');
-
-var test = function(){
-	var foldersAndFiles = qiaoUtilFile.lsdir('z:/workspaces/qiao.plugin.coder/');
-	console.log(foldersAndFiles);
-};
-
-test();
-```
-
 ## mkdir
 ```javascript
 'use strict';
@@ -82,17 +68,35 @@ var test = function(){
 test();
 ```
 
-## getAllFiles
+## lsdir
 ```javascript
 'use strict';
 
 var qiaoUtilFile = require('qiao.util.file');
 
 var test = function(){
-	var folder 	= 'z:/workspaces/qiao.plugin.coder/';
-	var files	= qiaoUtilFile.getAllFiles(folder);
-	
-	console.log(files);
+	var foldersAndFiles = qiaoUtilFile.lsdir('z:/workspaces/qiao.plugin.coder/');
+	console.log(foldersAndFiles);
+};
+
+test();
+```
+
+## lsdir
+```javascript
+'use strict';
+
+var qiaoUtilFile = require('qiao.util.file');
+
+var test = function(){
+	var folderPath 	= 'd:/test1/';
+	var filePath	= 'd:/test.png'
+
+	// rm folder
+	qiaoUtilFile.rm(folderPath);
+		
+	// rm file
+	qiaoUtilFile.rm(filePath);
 };
 
 test();
