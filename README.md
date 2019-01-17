@@ -85,6 +85,9 @@ test();
 ```
 
 # version
+## 0.0.6.20190117
+1. extname to lower case
+
 ## 0.0.5.20190107
 1. nodejs file tool
 
