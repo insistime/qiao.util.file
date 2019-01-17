@@ -53,6 +53,20 @@ var test = function(){
 test();
 ```
 
+## lsdir
+```javascript
+'use strict';
+
+var qiaoUtilFile = require('qiao.util.file');
+
+var test = function(){
+	var foldersAndFiles = qiaoUtilFile.lsdir('z:/workspaces/qiao.plugin.coder/');
+	console.log(foldersAndFiles);
+};
+
+test();
+```
+
 ## mkdir
 ```javascript
 'use strict';
