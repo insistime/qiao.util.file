@@ -103,6 +103,9 @@ test();
 ```
 
 # version
+## 0.0.7.20190122
+1. modify md
+
 ## 0.0.6.20190117
 1. extname to lower case
 2. add lsdir
