@@ -82,7 +82,7 @@ var test = function(){
 test();
 ```
 
-## lsdir
+## rm
 ```javascript
 'use strict';
 
