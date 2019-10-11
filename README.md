@@ -103,6 +103,10 @@ test();
 ```
 
 # version
+## 0.0.8.20191011
+1. exports.fs
+2. exports.path
+
 ## 0.0.7.20190122
 1. modify md
 
