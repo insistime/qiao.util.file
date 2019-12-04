@@ -8,6 +8,9 @@
 ## npm
 [https://www.npmjs.com/package/qiao.util.file](https://www.npmjs.com/package/qiao.util.file)
 
+## donate
+[http://uikoo9.com/donate](http://uikoo9.com/donate)
+
 # started
 ## install
 npm install qiao.util.file
@@ -103,6 +106,9 @@ test();
 ```
 
 # version
+## 0.0.9.20191204
+1. add funding
+
 ## 0.0.8.20191011
 1. exports.fs
 2. exports.path
